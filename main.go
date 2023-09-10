@@ -1,4 +1,5 @@
 package main
+package db
 
 import (
 	"net/http"
