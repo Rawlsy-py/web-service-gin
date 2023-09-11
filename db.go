@@ -1,11 +1,3 @@
-import (
-	"github.com/go-pg/pg/v9"
-	"github.com/go-pg/pg/v9/orm"
-	"log"
-	"os"
-	"time"
-)
-
 func Connect() *pg.DB {
 	opts := &pg.Options{
 		User:     getEnv("QOVERY_DATABASE_MY_DB_USERNAME", "postgres"),
